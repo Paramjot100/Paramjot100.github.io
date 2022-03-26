@@ -1,0 +1,76 @@
+.container{
+    width: 390px;
+    margin: auto;
+    border: 3px solid;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px 1px gray;
+}
+h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+label{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#userName{
+    margin-left: 167px;
+}
+#userEmail{
+    margin-left: 169px;
+}
+#userCreditNumber{
+    margin-left: 72px;
+}
+#expiryMonth{
+    margin-left: 38px;
+}
+#userCreditExpiry{
+    margin-left: 52px;
+}
+#quantityItem1{
+    margin-left: 11px;
+}
+#quantityItem2{
+    margin-left: 61px;
+}
+#quantityItem3{
+    margin-left: 70px;
+}
+#quantityItem4{
+    margin-left: 14px;
+}
+#quantityItem5{
+    margin-left: 31px;
+}
+#checkoutButton{
+    font-size: larger;
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 320px;
+    height: 40px;
+    background-color: black;
+    color: cornsilk;
+    border: none;
+    border-radius: 10px;
+}
+table,tr,th,td{
+    border: solid;
+    border-collapse: collapse;
+    padding: 5px;
+}
+#table2{
+    margin-top: 15px;
+}
+p{
+    color: red;
+    font-size: small;
+}

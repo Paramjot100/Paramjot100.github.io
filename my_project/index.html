@@ -1,0 +1,45 @@
+<!--
+    Name: Paramjot Singh
+    Student Number: 8756782
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css">
+    <script src = "script.js"></script>
+    <title>Raising Funds</title>
+</head>
+<body>
+    <h1>Helpinghand Garage Sale</h1>
+    <h2>Raising money for The Frontline Fund</h2>
+     
+    <div class = "container">
+        <h3 id = "heading3"></h3>
+        <form name = "form" method = "post" enctype = "text/plain" id = "myForm">
+            <label for = "name">Name: </label> <input type = "text" id = "userName" > <p id = "error1"></p>
+            <label for = "email">Email: </label> <input type = "email" id = "userEmail"> <p id = "error2"></p>
+            <label for = "card number">Credit Card Number: </label> <input type = "text" id = "userCreditNumber"> <p id = "error3"></p>
+            <label for = "expiry month">Credit Card Expiry Month: </label> <input type = "text" id = "expiryMonth"> <p id = "error4"></p>
+            <label for = "expiry year">Credit Card Expiry Year: </label> <input type = "text" id = "userCreditExpiry"> <p id = "error5"></p> 
+
+            <h3 id = "heading">Buy generously</h3>
+            <p id = "impMsg"></p>
+            <label for = "buying item1">Number of Water Bottles ($5)</label> <input type = "text" id = "quantityItem1" oninput="item1()"> <p id = "error6"></p>
+            <label for = "buying item2">Number of Caps ($20)</label> <input type = "text" id = "quantityItem2" oninput="item2()"> <p id = "error7"></p>
+            <label for = "buying item3">Number of Pens ($2)</label> <input type = "text" id = "quantityItem3" oninput="item3()"> <p id = "error8"></p>
+            <label for = "buying item4">Number of Candy Bags ($10)</label> <input type = "text" id = "quantityItem4" oninput="item4()"> <p id = "error9"></p>
+            <label for = "buying item5">Number of Cup Cakes ($3)</label> <input type = "text" id = "quantityItem5" oninput="item5()"> <p id = "error10"></p>
+            <input type = "button" id= "checkoutButton"value = "Checkout" onclick = "userDetails()"> 
+        </form>
+        
+        <!--table to show complete details of products purchased-->
+        <center>
+            <table id = "table2">
+            </table>
+        </center>
+    </div>
+</body>
+</html>
